@@ -1,5 +1,5 @@
 def summarize(text:str) -> str:
-    ''''Summarize the Text'''
+    '''Summarize the Text'''
     return text
 def generate_image(text:str):
     '''Generates an image from the text using text-to-image model'''

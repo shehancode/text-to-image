@@ -14,5 +14,5 @@ if st.button("Summarize and Generate Image"):
             summary = summarize(text)
         with st.spinner("Generating Image..."):
             image  = generate_image(summary)
-        st.info(f"Summary: (summary)")
+        st.info(f"Summary: {summary}")
         st.image(image)
